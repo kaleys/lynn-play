@@ -125,9 +125,9 @@
     var clockObj = new Clock({element:clock}),stop = false;
 
 
-    document.getElementById('btn').onclick = function(){
+    /*document.getElementById('btn').onclick = function(){
         stop ? clockObj.start() : clockObj.stop();
         this.innerHTML = stop ? '停止':'开始';
         stop = !stop;
-    }
+    }*/
 })();
